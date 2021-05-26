@@ -1,0 +1,34 @@
+.header
+{    
+    background-color: #0F1C26;
+
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+
+    align-items: center;
+    justify-content:space-evenly;
+
+    padding: 1rem;
+}
+
+.header_pesquisa
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.imagem_perfil
+{    
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5%;
+}
+
+.pesquisa, .favoritos, .promocoes, .bem-vindo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

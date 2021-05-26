@@ -1,0 +1,46 @@
+.filme_card
+{
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 0.5rem;
+
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.filme_card > .estrela_topo
+{
+    cursor: pointer;
+    margin-bottom: auto;
+}
+
+.estrela_topo.ativo
+{
+    fill:#fff;
+}
+
+
+.filme_info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao_compra
+{
+    all:unset;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-weight: bold;
+    
+    padding: 5%;
+    background-color: #a785ed;
+}

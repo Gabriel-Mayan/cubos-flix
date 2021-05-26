@@ -1,0 +1,56 @@
+.banner
+{
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/bg-promotion.svg');
+    
+    height: 120px;
+    max-width: 936px;
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+
+    grid-template-areas: "cupomTxt timeTxt img" "cupomVal timeVal img";
+    
+    column-gap: 24px;
+    grid-template-rows: 60px auto;
+
+    padding-bottom: 1rem;
+    margin-bottom: 2.5%;
+}
+
+.banner > h1,.banner h2, .banner span
+{
+    color: black;
+}
+
+.txt_cupom
+{
+    grid-area: cupomTxt;
+}
+.info_cupom
+{
+    grid-area: cupomVal;
+} 
+
+.txt_tempo
+{
+    grid-area: timeTxt;
+}
+.info_tempo
+{
+    grid-area: timeVal;
+}
+
+.info_cupom, .info_tempo
+{
+    display: flex;
+    align-items:center;    
+    
+    align-self: flex-start;
+    justify-self: flex-start;
+    
+    padding-left: 1rem;
+}

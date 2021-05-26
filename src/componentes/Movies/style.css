@@ -1,0 +1,13 @@
+.filmes
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.top-conteudo, .filmes-conteudo
+{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+}

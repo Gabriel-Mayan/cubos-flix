@@ -1,0 +1,31 @@
+.App
+{
+  background-color: #1D2226;
+
+  min-width: 100vh;
+
+  display: grid;
+  grid-template-areas: "cbc cbc" "cont moch";
+
+  gap: 1.5rem 4rem;
+}
+
+.App .header
+{
+  grid-area: cbc;
+}
+
+.App .conteudo
+{  
+  grid-area: cont;
+}
+.App .mochila
+{
+  grid-area: moch;  
+}
+
+.conteudo
+{  
+  padding-left: 13%;
+  padding-bottom: 2%;
+}

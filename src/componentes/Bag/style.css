@@ -1,0 +1,45 @@
+.bag
+{
+    display: grid;
+    grid-template-areas: "cbc" "mid" "pad";
+
+    position:fixed;
+    background-color:rgba(0, 0, 0, 0.2);
+    
+}
+
+.cabecalho-sacola
+{
+    grid-area: cbc;
+    
+    background-color:  #A785ED;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4%;
+
+}
+
+.mid-sacola
+{
+    grid-area: mid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding-top: 5%;
+}
+
+.pad-sacola
+{
+    grid-area: pad;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 7.5%;
+}
